@@ -1,3 +1,5 @@
+import fetch from 'node-fetch'
+
 async function fetchHtml() {
     const response = await fetch('https://9anime.to')
     const html = await response.text()
